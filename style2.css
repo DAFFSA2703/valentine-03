@@ -75,24 +75,4 @@ canvas#c {
         opacity: 0;
     }
 
-}
-@media (max-width: 600px) {
-    h1 {
-        font-size: 1.6rem; /* Mengecilkan teks di HP */
     }
-
-    .btn-group {
-        flex-direction: row; /* Tetap menyamping, atau ubah ke column jika ingin tumpuk */
-        gap: 10px;
-    }
-
-    .yes-btn, .no-btn {
-        padding: 12px 30px;
-        font-size: 1.1rem;
-    }
-
-    .balloon {
-        height: 80px;
-        width: 65px;
-    }
-}
