@@ -4,7 +4,7 @@ var w = (c.width = window.innerWidth),
   hw = w / 2, 
   hh = h / 2,
   opts = {
-    strings: ["HAPPY", "VALENTINE", "DAY"],
+    strings: ["HAPPY", "VALENTINE", "DAY", " CESSA🤍"],
     charSize: 120,
     charSpacing: 120,
     lineHeight: 150,
@@ -427,3 +427,4 @@ function createBalloons(num) {
 window.addEventListener("load", () => {
   createBalloons(30);
 });
+
